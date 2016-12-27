@@ -31,18 +31,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if(v == btn1){
             i++;
-            btn1.setText("سبحان الله"+"\n\n"+i);
+            btn1.setText(i+"");
         }else if (v == btn2){
             j++;
-            btn2.setText("الحمد الله"+"\n\n"+j);
+            btn2.setText(j+"");
         }
         else if (v == btn3){
             k++;
-            btn3.setText("لا إله إلا الله"+"\n\n"+k);
+            btn3.setText(k+"");
         }
         else{
             l++;
-            btn4.setText("الله أكبر"+"\n\n"+l);
+            btn4.setText(l+"");
         }
     }
 }
